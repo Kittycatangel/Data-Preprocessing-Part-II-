@@ -27,7 +27,7 @@ If we notice that a model performs much better on a training dataset than on the
 L2 regularization is one approach to reduce the complexity of a model by penalizing large individual weights, where we defined the L2 norm of our weight vector w.
 It can be applied with machine learning models like logistic regression.
 
-![image](https://user-images.githubusercontent.com/53411455/141504954-00dbc84d-5b62-4cac-a194-38edf62f34ce.png)
+         ![image](https://user-images.githubusercontent.com/53411455/141504954-00dbc84d-5b62-4cac-a194-38edf62f34ce.png)
 
 
 ### Sequential feature selection algorithms
@@ -35,14 +35,14 @@ It can be applied with machine learning models like logistic regression.
 For machine leraning models where we can not use l1, l2 regularizers i.e., KNN classifier.
 An alternative way to reduce the complexity of the model and avoid overfitting is dimensionality reduction via feature selection, which is especially useful for unregularized models. There are two main categories of dimensionality reduction techniques: feature selection and feature extraction. Via feature selection, we select a subset of the original features, whereas, in feature extraction, we derive information from the feature set to construct a new feature subspace.
 
-![image](https://user-images.githubusercontent.com/53411455/141504896-398b1cbd-d808-49fb-bfce-ea74f0e0475f.png)
+          ![image](https://user-images.githubusercontent.com/53411455/141504896-398b1cbd-d808-49fb-bfce-ea74f0e0475f.png)
 
 
 ### Assessing feature importance with random forests
 
 Another useful approach to select relevant features from a dataset is to use a random forest. Using a random forest, we can measure the feature importance.
 
-![image](https://user-images.githubusercontent.com/53411455/141504854-3ee92c36-eda6-4808-940d-f090569d2fef.png)
+          ![image](https://user-images.githubusercontent.com/53411455/141504854-3ee92c36-eda6-4808-940d-f090569d2fef.png)
 
 
 ## Summary
